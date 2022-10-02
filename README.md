@@ -7,3 +7,4 @@ En este repositorio tenemos los trabajos de laboratorio del curso MDS7202.
 - [x] [Laboratorio 2: Imagenes 📷](https://johnny-godoy.github.io/laboratorios-mds/lab%202/Laboratorio2_enunciado.html)
 - [x] [Laboratorio 3: El Pandas no muerde (act. I) 🐼](https://johnny-godoy.github.io/laboratorios-mds/lab%203/laboratorio_3.html)
 - [x] [Laboratorio 4: El Pandas no muerde (act. II) 🐼](https://johnny-godoy.github.io/laboratorios-mds/lab%204/laboratorio_4.html)
+- [ ] [Laboratorio 5: El Pandas no Muerde (act IV) 🐼](https://github.com/johnny-godoy/laboratorios-mds/blob/main/lab%205/laboratorio_5.ipynb)

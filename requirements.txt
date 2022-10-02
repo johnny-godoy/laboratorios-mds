@@ -1,9 +1,12 @@
 imageio==2.21.2
 jupyter==1.0.0
 matplotlib==3.5.2
+missingno==0.5.1
 numpy==1.22.3
+openpyxl==3.0.10
 pandas==1.4.3
 Pillow=9.2.0
 plotly==5.10.0
 scikit-learn==1.1.0
 scipy==1.8.1
+xlrd==2.0.1
