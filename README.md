@@ -8,4 +8,4 @@ En este repositorio tenemos los trabajos de laboratorio del curso MDS7202.
 - [x] [Laboratorio 3: El Pandas no muerde (act. I) 🐼](https://johnny-godoy.github.io/laboratorios-mds/lab%203/laboratorio_3.html)
 - [x] [Laboratorio 4: El Pandas no muerde (act. II) 🐼](https://johnny-godoy.github.io/laboratorios-mds/lab%204/laboratorio_4.html)
 - [x] [Laboratorio 5: El Pandas no Muerde (act IV) 🐼](https://johnny-godoy.github.io/laboratorios-mds/lab%205/laboratorio_5.html)
-- [ ] [Laboratorio 6: La desperación de Mr. Lepin 🐼](https://github.com/johnny-godoy/laboratorios-mds/blob/main/lab%206/laboratorio_6.ipynb)
+- [ ] [Laboratorio 6: La desperación de Mr. Lepin 🐼](https://johnny-godoy.github.io/laboratorios-mds/lab%206/laboratorio_6.html)
