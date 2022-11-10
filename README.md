@@ -11,3 +11,4 @@ En este repositorio tenemos los trabajos de laboratorio del curso MDS7202.
 - [x] [Laboratorio 6: La desperación de Mr. Lepin 🐼](https://johnny-godoy.github.io/laboratorios-mds/lab%206/laboratorio_6.html)
 - [x] [Laboratorio 7: Aprendizaje Supervisado 🔮](https://johnny-godoy.github.io/laboratorios-mds/lab%207/laboratorio_7.html)
 - [x] [Laboratorio 8: ¿Superhéroe o Villano? 🦸](https://johnny-godoy.github.io/laboratorios-mds/lab%208/laboratorio_8.html)
+- [ ] [Laboratorio 9: ¿Superhéroe o Villano? 🦸](https://github.com/johnny-godoy/laboratorios-mds/blob/main/lab%209/laboratorio_9.ipynb)
