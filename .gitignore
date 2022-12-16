@@ -131,3 +131,5 @@ dmypy.json
 
 # Ignoring data files
 data*
+catboost_info*
+prediction_files*
