@@ -14,7 +14,7 @@ en sus versiones Primavera 2022 (como oyente) y Otoño 2023 (como estudiante).
 - [x] [Laboratorio 6: La desperación de Mr. Lepin 🐼](https://johnny-godoy.github.io/laboratorios-mds/2022/lab%206/laboratorio_6.html)
 - [x] [Laboratorio 7: Aprendizaje Supervisado 🔮](https://johnny-godoy.github.io/laboratorios-mds/2022/lab%207/laboratorio_7.html)
 - [x] [Laboratorio 8: ¿Superhéroe o Villano? 🦸](https://johnny-godoy.github.io/laboratorios-mds/2022/lab%208/laboratorio_8.html)
-- [x] [Laboratorio 9: Los huesos de Hipócrates 🦴](https://github.com/johnny-godoy/laboratorios-mds/2022/blob/main/lab%209/laboratorio_9.ipynb)
+- [x] [Laboratorio 9: Los huesos de Hipócrates 🦴](https://github.com/johnny-godoy/laboratorios-mds/blob/main/2022/lab%209/laboratorio_9.ipynb)
 - [x] [Competencia](https://johnny-godoy.github.io/laboratorios-mds/2022/competencia/proyecto.html)
 
 2021
