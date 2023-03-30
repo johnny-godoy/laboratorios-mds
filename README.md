@@ -19,4 +19,4 @@ en sus versiones Primavera 2022 (como oyente) y Otoño 2023 (como estudiante).
 
 2021
 ----
-TODO
+- [x] [Laboratorio 1: Git 👾](https://johnny-godoy.github.io/laboratorios-mds/2023/lab1/laboratorio_1.html)
