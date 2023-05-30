@@ -20,3 +20,4 @@ en sus versiones Primavera 2022 (como oyente) y Otoño 2023 (como estudiante).
 2021
 ----
 - [x] [Laboratorio 1: Git 👾](https://johnny-godoy.github.io/laboratorios-mds/2023/lab1/laboratorio_1.html)
+- [x] [Proyecto: Innovación Tecnológica en Bodoque Bank](https://johnny-godoy.github.io/laboratorios-mds/2023/proyecto1/proyecto.html)
