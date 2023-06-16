@@ -17,7 +17,9 @@ en sus versiones Primavera 2022 (como oyente) y Otoño 2023 (como estudiante).
 - [x] [Laboratorio 9: Los huesos de Hipócrates 🦴](https://github.com/johnny-godoy/laboratorios-mds/blob/main/2022/lab%209/laboratorio_9.ipynb)
 - [x] [Competencia](https://johnny-godoy.github.io/laboratorios-mds/2022/competencia/proyecto.html)
 
-2021
+2023
 ----
 - [x] [Laboratorio 1: Git 👾](https://johnny-godoy.github.io/laboratorios-mds/2023/lab1/laboratorio_1.html)
 - [x] [Proyecto: Innovación Tecnológica en Bodoque Bank](https://johnny-godoy.github.io/laboratorios-mds/2023/proyecto1/proyecto.html)
+- [ ] [Laboratorio 10: Interpretabilidad 🤖](https://github.
+  com/johnny-godoy/laboratorios-mds/blob/main/2023/lab10/laboratorio_10.ipynb)
