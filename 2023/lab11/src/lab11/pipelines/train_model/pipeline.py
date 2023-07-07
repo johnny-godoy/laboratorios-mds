@@ -2,13 +2,9 @@
 This is a boilerplate pipeline 'train_model'
 generated using Kedro 0.18.11
 """
-from kedro.pipeline import node
-from kedro.pipeline import Pipeline
-from kedro.pipeline import pipeline
+from kedro.pipeline import Pipeline, node, pipeline
 
-from .nodes import evaluate_model
-from .nodes import split_data
-from .nodes import train_model
+from .nodes import evaluate_model, split_data, train_model
 
 
 def create_pipeline(**_) -> Pipeline:

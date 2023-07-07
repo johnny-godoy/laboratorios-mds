@@ -3,13 +3,13 @@ This is a boilerplate pipeline 'train_model'
 generated using Kedro 0.18.10
 """
 import logging
-import xgboost as xgb
 from typing import Dict
 
 import lightgbm as lgb
 import mlflow
 import numpy as np
 import pandas as pd
+import xgboost as xgb
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error

@@ -17,6 +17,7 @@
 import re
 
 from kedro.framework.cli.utils import find_stylesheets
+
 from lab11 import __version__ as release
 
 # -- Project information -----------------------------------------------------

@@ -2,14 +2,14 @@
 This is a boilerplate pipeline 'data_prep'
 generated using Kedro 0.18.11
 """
-from kedro.pipeline import node
-from kedro.pipeline import Pipeline
-from kedro.pipeline import pipeline
+from kedro.pipeline import Pipeline, node, pipeline
 
-from .nodes import create_model_input_table
-from .nodes import get_data
-from .nodes import preprocess_companies
-from .nodes import preprocess_shuttles
+from .nodes import (
+    create_model_input_table,
+    get_data,
+    preprocess_companies,
+    preprocess_shuttles,
+)
 
 
 def create_pipeline(**_) -> Pipeline:
