@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/David/PycharmProjects/kedro-project/laboratorio-11/mlruns/336706807601423475/f1b6b673ce4c493f8020a8561e3a78f5/artifacts
+end_time: 1688759857224
+entry_point_name: ''
+experiment_id: '336706807601423475'
+lifecycle_stage: active
+run_id: f1b6b673ce4c493f8020a8561e3a78f5
+run_name: XGBRegressor por defecto
+run_uuid: f1b6b673ce4c493f8020a8561e3a78f5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688759856702
+status: 3
+tags: []
+user_id: David
