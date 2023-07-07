@@ -59,6 +59,9 @@ def train_model(
         xgb.XGBRegressor(),
         lgb.LGBMRegressor(),
     )
+    # "return get_best_model(experiment_id)" lanza KeyError,
+    # pues metrics.valid_mae no es una llave válida de runs
+    # por lo tanto, se determina manualmente el mejor modelo
     maes = np.empty(len(models))
     for i, model in enumerate(models):
         with mlflow.start_run(
