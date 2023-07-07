@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/David/PycharmProjects/kedro-project/laboratorio-11/mlruns/336706807601423475
+creation_time: 1688759848973
+experiment_id: '336706807601423475'
+last_update_time: 1688759848973
+lifecycle_stage: active
+name: Validación para elegir el mejor modelo baseline

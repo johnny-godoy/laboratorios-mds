@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/David/PycharmProjects/kedro-project/laboratorio-11/mlruns/336706807601423475/d601b9e787d041eca837671780c6a130/artifacts
+end_time: 1688759849608
+entry_point_name: ''
+experiment_id: '336706807601423475'
+lifecycle_stage: active
+run_id: d601b9e787d041eca837671780c6a130
+run_name: LinearRegression por defecto
+run_uuid: d601b9e787d041eca837671780c6a130
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688759849458
+status: 3
+tags: []
+user_id: David
