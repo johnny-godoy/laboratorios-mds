@@ -2,3 +2,26 @@
 #
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+raw_companies:
+    type: pandas.ParquetDataSet
+    filepath: data/01_raw/companies.parquet
+
+raw_shuttles:
+    type: pandas.ParquetDataSet
+    filepath: data/01_raw/shuttles.parquet
+
+raw_reviews:
+    type: pandas.ParquetDataSet
+    filepath: data/01_raw/reviews.parquet
+
+preprocessed_companies:
+  type: pandas.ParquetDataSet
+  filepath: data/02_intermediate/companies.parquet
+
+preprocessed_shuttles:
+  type: pandas.ParquetDataSet
+  filepath: data/02_intermediate/shuttles.parquet
+
+model_input_table:
+  type: pandas.ParquetDataSet
+  filepath: data/03_primary/model_input_table.parquet
