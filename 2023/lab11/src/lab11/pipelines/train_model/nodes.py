@@ -69,7 +69,7 @@ def train_model(
             mae = mean_absolute_error(y_valid, model.predict(X_valid))
             mlflow.log_metric("valid_mae", mae)
         maes[i] = mae
-    return models[np.argmin(maes)]
+    return models[np.argmin(maes)]  # type: ignore
 
 
 def evaluate_model(model, X_test: pd.DataFrame, y_test: pd.Series):
