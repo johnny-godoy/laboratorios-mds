@@ -130,7 +130,6 @@ dmypy.json
 .pyre/
 *.zip
 
-# Ignoring data files
-data*
+# Ignoring data files¡
 catboost_info*
 prediction_files*
