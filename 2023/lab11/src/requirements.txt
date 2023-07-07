@@ -11,6 +11,7 @@ kedro-datasets[pandas.CSVDataSet, pandas.ExcelDataSet, pandas.ParquetDataSet]~=1
 kedro-telemetry~=0.2.0
 lightgbm~=3.3.5
 mlflow~=2.4.1
+numpy~=1.23.5
 nbstripout~=0.4
 pytest-cov~=3.0
 pytest-mock>=1.7.1, <2.0
