@@ -1,0 +1,2 @@
+split_params:
+  test_size: 0.2
