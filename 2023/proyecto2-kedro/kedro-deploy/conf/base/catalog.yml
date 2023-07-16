@@ -1,0 +1,59 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+raw_dataset:
+  type: pandas.ParquetDataSet
+  filepath: data/01_raw/dataset.pq
+
+producto:
+    type: pandas.ParquetDataSet
+    filepath: data/04_feature/producto.pq
+
+train_x:
+    type: pandas.ParquetDataSet
+    filepath: data/05_model_input/train_x.pq
+
+train_y:
+    type: pandas.ParquetDataSet
+    filepath: data/05_model_input/train_y.pq
+
+test_x:
+    type: pandas.ParquetDataSet
+    filepath: data/05_model_input/test_x.pq
+
+test_y:
+    type: pandas.ParquetDataSet
+    filepath: data/05_model_input/test_y.pq
+
+imputador:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/imputador.pkl
+
+imputed_train_x:
+    type: pandas.ParquetDataSet
+    filepath: data/05_model_input/imputed_train_x.pq
+
+imputed_test_x:
+    type: pandas.ParquetDataSet
+    filepath: data/05_model_input/imputed_test_x.pq
+
+modelo_ebm:
+    type: pickle.PickleDataSet
+    filepath: data/06_models/modelo_ebm.pkl
+
+pred_y:
+    type: pandas.ParquetDataSet
+    filepath: data/07_model_output/predicciones.pq
+
+reporte_metricas:
+    type: json.JSONDataSet
+    filepath: data/08_reporting/reporte_metricas.json
+
+explicacion_global:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/explicacion_global.pkl
+
+explicacion_local:
+    type: pickle.PickleDataSet
+    filepath: data/08_reporting/explicacion_local.pkl
