@@ -4,4 +4,5 @@
 # Documentation for this file format can be found in "Parameters"
 # Link: https://docs.kedro.org/en/0.18.11/kedro_project_setup/configuration.html#parameters
 ebm_params:
-  max_leaves: 2
+  max_leaves: 4
+  max_bins: 311

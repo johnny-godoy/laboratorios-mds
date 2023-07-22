@@ -10,6 +10,10 @@ producto:
     type: pandas.ParquetDataSet
     filepath: data/04_feature/producto.pq
 
+datos_limpios:
+    type: pandas.ParquetDataSet
+    filepath: data/02_intermediate/datos_limpios.pq
+
 train_x:
     type: pandas.ParquetDataSet
     filepath: data/05_model_input/train_x.pq
