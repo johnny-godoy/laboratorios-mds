@@ -4,7 +4,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 
 
-def entrenar_imputador(train_x: pd.DataFrame) -> SimpleImputer:
+def entrenar_imputador(train_x: pd.DataFrame) -> ColumnTransformer:
     imputador = ColumnTransformer(
         [
             (
@@ -16,6 +16,7 @@ def entrenar_imputador(train_x: pd.DataFrame) -> SimpleImputer:
         remainder="passthrough",
         verbose_feature_names_out=False,
     )
+    imputador.set_output(transform="pandas")
     imputador.fit(train_x)
     return imputador
 

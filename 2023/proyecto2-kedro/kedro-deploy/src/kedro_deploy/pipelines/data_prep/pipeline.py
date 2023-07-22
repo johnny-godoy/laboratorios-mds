@@ -4,7 +4,12 @@ generated using Kedro 0.18.11
 """
 
 from kedro.pipeline import Pipeline, node, pipeline
-from .nodes import caracteristica_producto, crear_tabla, division_train_test
+from .nodes import (
+    caracteristica_producto,
+    crear_tabla,
+    division_train_test,
+    limpiar_datos
+)
 
 
 def create_pipeline(**_) -> Pipeline:
@@ -17,8 +22,14 @@ def create_pipeline(**_) -> Pipeline:
                 name="calcular_característica_útil",
             ),
             node(
+                func=limpiar_datos,
+                inputs="raw_dataset",
+                outputs="datos_limpios",
+                name="limpiar_datos",
+            ),
+            node(
                 func=crear_tabla,
-                inputs=["raw_dataset", "producto"],
+                inputs=["datos_limpios", "producto"],
                 outputs="tabla_datos",
                 name="crear_tabla",
             ),
