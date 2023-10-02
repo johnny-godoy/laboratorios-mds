@@ -1,6 +1,6 @@
 black~=22.0
 flake8>=3.7.9, <5.0
-ipython~=8.10; python_version >= '3.8'
+ipython~=8.10
 isort~=5.0
 jupyter~=1.0
 jupyterlab_server>=2.11.1, <2.16.0
@@ -9,7 +9,7 @@ kedro~=0.18.10
 kedro-datasets[pandas.CSVDataSet, pandas.ExcelDataSet, pandas.ParquetDataSet]~=1.0
 kedro-telemetry~=0.2.0
 lightgbm~=3.3.5
-mlflow~=2.5.0
+mlflow~=2.6.0
 numpy~=1.23.5
 nbstripout~=0.4
 pytest-cov~=3.0
